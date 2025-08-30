@@ -35,6 +35,14 @@ export interface User {
   role: string;
 }
 
+// Authentication State Interface - For user session management
+export interface AuthState {
+  user: User | null;
+  isAuthenticated: boolean;
+  isLoading: boolean;
+  error: string | null;
+}
+
 // Generic API Response Interface
 export interface ApiResponse<T = any> {
   data: T;
