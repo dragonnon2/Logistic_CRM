@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(md-tree:*)",
+      "Bash(dir)",
+      "Bash(dir docs)",
+      "Bash(dir:*)",
+      "Bash(npm create:*)",
+      "Bash(npm install)",
+      "Bash(npm install:*)",
+      "Bash(npx tailwindcss init:*)",
+      "Bash(npx:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm test)",
+      "Bash(timeout 30 npm test run)",
+      "Bash(timeout 15s npm run dev)",
+      "Bash(npm run test:*)",
+      "Bash(npm run lint)",
+      "Bash(npm test:*)",
+      "Bash(timeout 30 npm test)",
+      "Bash(npm run dev:*)",
+      "Read(C:\\Users\\Acer\\OneDrive\\เดสก์ท็อป/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
